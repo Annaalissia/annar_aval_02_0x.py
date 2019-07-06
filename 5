@@ -1,0 +1,17 @@
+fila = []
+
+while True:
+    # print(fila)
+    opcao = input("Para adicionar paciente na fila digite 1 \nou para remover o primeira da fila digite 2: ")
+    if opcao == '1':
+        paciente = input("Insira o nome do paciente: ")
+        fila.append(paciente)
+    elif opcao == '2' and fila == []:
+        print("\n           Fila ja esta vazia!      ")
+
+    elif opcao == '2':
+        fila.pop(0)
+
+    else:
+        break
+    print(fila)
