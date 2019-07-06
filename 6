@@ -1,4 +1,11 @@
-lista = ["05", "05", "02", "02", "1995"]
-lista.remove("05")
-lista.remove("02")
-print(lista)
+lista1 = [10, 10, 9, 8, 6, 8, 6, 4]
+lista2 = []
+
+for x in lista1:
+   lista2.append(x)
+   for y in lista2:
+      if y in lista1:
+         lista1.remove(y)
+
+lista1 = lista2
+print(lista1)
