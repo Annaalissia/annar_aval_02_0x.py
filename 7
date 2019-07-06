@@ -1,0 +1,36 @@
+dia = int(input("Qual é o dia do seu aniversário?"))
+mes = int(input("Qual é o mês do seu aniversário? "))
+
+if mes == 12 or mês == 1 or mês == 2 or mês == 3:
+    if dia <= 22 and mês == 12:
+        print("Seu aniversário é na primavera!")
+
+        if dia > 20 and mês == 3:
+            print('Seu aniversário é no outono!')
+    else:
+        print('você nasceu no verão')
+
+if mes == 3 or mês == 4 or mês == 5 or mês == 6:
+    if dia <= 20 and mês == 3:
+        print("Seu aniversário é no verão!")
+        if dia >= 21 and mês == 6:
+            print('Seu aniversário é no inverno!')
+    else:
+        print('Seu aniversário é no outono!')
+
+if mes == 6 or mês == 7 or mês == 8 or mês == 9:
+    if dia <= 21 and mês == 6:
+        print("você nasceu no outono")
+        if dia >= 23 and mês == 9:
+            print('Seu aniversário é na primavera!')
+    else:
+        print('Seu aniversário é no inverno!')
+
+if mes == 10 or mês == 11 or mês == 12 or mês == 9:
+    if dia <= 23 and mês == 9:
+        print("Seu aniversário é no inverno!")
+
+        if dia >= 22 and mês == 12:
+            print('Seu aniversário é no verão!')
+        else:
+            print('Seu aniversário é na primavera!')
